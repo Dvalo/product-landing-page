@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2f323d;
+	font-family: 'Sen', sans-serif;
+}
+
+#header {
+	background: #2b2d37;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+	border-bottom: 1px solid #353843;
+	box-shadow: 0 5px 12px rgb(0 0 0 / 0.08);
+}
+
+#header-img {
+	object-fit: contain;
+	max-height: 80px;
+	-webkit-transition: .125s;
+	-o-transition: .125s;
+	transition: .125s;
+}
+
+#header-img:hover {
+	transform: scale(1.1);
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	width: 35vw;
+	list-style: none;
+}
+
+nav ul li {
+	display:
+}
+
+nav ul li a {
+	font-family: 'Sen', sans-serif;
+	font-weight: 900;
+	font-size: 19px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: #8599fb;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+	-webkit-transition: .125s;
+	-o-transition: .125s;
+	transition: .125s;
+}
+
+nav ul li a:hover {
+	color: #6578d1;
+	letter-spacing: 0px;
+}
+
+
+/* SUBSCRIPITION FORM */
+
+#subscription {
+	position: relative;
+	margin: 120px auto 40px;
+	width: 60%;
+	text-align: center;
+	background: #2b2d37;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+#form {
+	text-align: left;
+}
+
+#form .custom_lab {
+	color: #ecf0f1;
+	margin: 0 0 15px 3px;
+}
+
+.sub_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.custom-input {
+	font-family: 'Sen', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	color: #8599fb;
+	width: 80%;
+	background: #25272f;
+	border-radius: 4px;
+	padding: 10px;
+	border: 1px solid transparent;
+	outline: none;
+	-webkit-transition: .125s;
+	-o-transition: .125s;
+	transition: .125s;
+}
+
+.custom-input:focus {
+	border-color: #8599fb;
+}
+
+.custom-submit {
+	border: none;
+	cursor: pointer;
+	font-family: 'Sen', sans-serif;
+	outline: none;
+	background: #1bbd9d;
+	color: #f5fcfb;
+	border-radius: 3px;
+	padding: 7px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: 15px;
+	-webkit-transition: .125s;
+	-o-transition: .125s;
+	transition: .125s;
+}
+
+.custom-submit:hover {
+	background: #15a68a;
+}
+
+
+/* SECTION HEADING */
+
+.section_heading {
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #8599fb;
+	letter-spacing: 2px;
+}
+
+
+/* SHOWCASE VIDEO */
+
+#showcase iframe {
+	display: block;
+	width: 65%;
+	margin: 0 auto;
+}
+
+
+/* FEATURES */
+
+#features {
+	position: relative;
+	margin: 120px auto 40px;
+	width: 80%;
+	background: #2b2d37;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.feature_box {
+	display: flex;
+	align-items: center;
+	color: #f5fcfb;
+	background: #25272f;
+	margin: 20px 0;
+	padding: 20px;
+}
+
+.feature_icon {
+	font-size: 30px;
+	color: #8599fb;
+}
+
+.feature_info_wrapper {
+	margin-left: 20px;
+}
+
+.feature_name {
+	font-weight: bold;
+}
+
+.feature_desc {
+	font-size: 13px;
+	color: #c7c7c7;
+}
+
+
+/* PRICING */
+
+#pricing {
+	position: relative;
+	margin: 200px auto 40px;
+	width: 80%;
+	background: #2b2d37;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.pricing_planWrapper {
+	display: flex;
+	margin-top: 20px;
+}
+
+.pricing_plan {
+	background: #25272f;
+	text-align: center;
+	color: #f5fcfb;
+	width: 33.333%;
+	padding: 15px;
+	margin: 0 20px 0 0;
+}
+
+.pricing_head {
+	background: #2b2d37;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.product_name {
+	font-weight: 900;
+	color: #e26042;
+	font-size: 28px;
+}
+
+.product_price {
+	margin-top: 10px;
+	background: #25272f;
+	color: #887fb9;
+	font-size: 22px;
+	font-weight: 600;
+	padding: 10px 0;
+}
+
+.pricing_body ul {
+	list-style: none;
+}
+
+.pricing_body ul li {
+	margin: 10px 0;
+}
+
+.pricing_footer {
+	margin-top: 20px;
+	padding: 10px;
+	background: #2b2d37;
+	font-size: 23px;
+	font-weight: 600;
+}
+
+.btn-purchase {
+	text-decoration: none;
+	color: #f6d898;
+	-webkit-transition: .125s;
+	-o-transition: .125s;
+	transition: .125s;
+}
+
+.btn-purchase:hover {
+	color: #d3af64;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1112px) {
+	nav ul {
+		justify-content: space-evenly;
+		width: 70%;
+	}
+	#subscription,
+	#showcase iframe {
+		width: 80%;
+	}
+}
+
+@media (max-width: 768px) {
+	.pricing_planWrapper {
+		flex-flow: column;
+	}
+	.pricing_plan {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+}
+
+@media (max-width: 667px) {
+	#subscription,
+	#features,
+	#pricing,
+	#showcase iframe {
+		width: 95%;
+	}
+	nav ul li a {
+		font-size: 13px;
+	}
+}
